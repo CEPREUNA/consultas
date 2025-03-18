@@ -31,7 +31,7 @@ function consultarEstado() {
                     resultadoDiv.innerHTML = `
                         <p>Nombre: <strong>${usuario.Nombres_y_Apellidos}</strong></p>
                         <p>Estado: <strong>${usuario.Estado}</strong></p>
-                        <p>Asignación de carga horaria será paulatinamente mientras los estudiantes se vayan inscribiendo al nuevo ciclo del CEPREUNA. No todos los APTO tendrán carga horaria inmediatamente, pero son elegibles para ello.</p>
+                        <p>La asignación de carga horaria será paulatinamente mientras los estudiantes se vayan inscribiendo al nuevo ciclo marzo-julio 2025 del CEPREUNA. No todos los APTOS tendrán carga horaria, pero son elegibles para ello.</p>
                     `;
                 } else {
                     resultadoDiv.innerHTML = `
